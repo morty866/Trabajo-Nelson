@@ -1,0 +1,247 @@
+/* Paleta de colores */
+:root {
+    --color-primario: #00bcd4; /* Celeste */
+    --color-fondo: #f5f5f5; /* Gris claro */
+    --color-texto: #333; /* Gris oscuro */
+    --color-borde: #ddd; /* Gris claro para bordes */
+    --color-boton: #0097a7; /* Celeste más oscuro */
+    --color-fondo-footer: #26c6da; /* Celeste más claro para el footer */
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: var(--color-primario);
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo para el título */
+header h1 {
+    margin: 0;
+}
+
+/* Estilo para la información */
+.Informacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Estilo para la lista de información */
+.Informacion ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para cada ítem de la lista */
+.Informacion li {
+    margin-bottom: 5px;
+}
+
+/* Estilo para el logo */
+.Informacion img {
+    width: 100px;
+    height: auto;
+}
+
+/* Estilos para la sección de Introducción */
+#Introducción {
+    background-color: var(--color-fondo); /* Color de fondo */
+    color: var(--color-texto); /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilos para el título de la sección */
+#Introducción h3 {
+    color: var(--color-primario); /* Color del título */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilos para el párrafo de la sección */
+#Introducción p {
+    text-align: center; /* Justificar el texto */
+    line-height: 1.5; /* Altura de línea */
+    margin-top: 20px; /* Margen superior */
+}
+
+/* Estilo para la sección de índice */
+#Indice {
+    text-align: center;
+    background-color: var(--color-fondo); /* Color de fondo */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilo para el título del índice */
+#Indice h3 {
+    color: var(--color-primario); /* Color del título */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilo para la lista del índice */
+#Indice ul {
+    list-style: none; /* Quitar los estilos de la lista */
+    padding: 0; /* Eliminar el padding */
+    margin: 0; /* Eliminar el margen */
+}
+
+/* Estilo para cada ítem de la lista del índice */
+#Indice li {
+    margin-bottom: 10px; /* Espacio entre ítems */
+}
+
+/* Estilo para los enlaces del índice */
+#Indice a {
+    color: var(--color-texto); /* Color del texto */
+    text-decoration: none; /* Quitar subrayado */
+    transition: color 0.3s; /* Transición suave del color */
+}
+
+/* Estilo para los enlaces del índice al pasar el ratón por encima */
+#Indice a:hover {
+    color: var(--color-primario); /* Cambiar color al pasar el ratón */
+}
+
+/* Estilos para las secciones */
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+/* Estilo para el título de las secciones */
+section h3 {
+    margin-top: 0;
+    font-size: 24px;
+    color: var(--color-primario);
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid var(--color-borde);
+}
+
+th {
+    background-color: var(--color-primario);
+    color: white;
+}
+
+/* Estilo para las imágenes de los productos */
+#Productos img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo para los botones de la galería */
+.controles button {
+    background-color: var(--color-boton);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px 3px;
+}
+
+
+.galeria {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente la galería */
+    align-items: center; /* Centra verticalmente la galería */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.galeria img {
+    display: block; /* Para centrar la imagen horizontalmente */
+    margin: 10px; /* Añade píxeles de margen */
+    max-width: 100%; /* Limita el ancho máximo de la imagen al 80% del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto */
+    width: 55%;
+}
+
+
+/* Estilo para los botones de la galería */
+.controles button {
+    margin: 0px; /* Reduce la distancia entre los botones */
+}
+
+#Planos{
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+/* Estilo para la sección Excel */
+#Excel {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin-top: 20px; /* Espacio superior */
+    padding: 20px; /* Espaciado interno */
+    background-color: var(--color-fondo); /* Color de fondo */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+#Excel h1 {
+    color: var(--color-primario); /* Color del título */
+    margin-top: 0; /* Elimina el margen superior del título */
+}
+
+#Excel p {
+    margin-bottom: 20px; /* Espaciado inferior del párrafo */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: var(--color-fondo-footer); /* Color de fondo */
+    color: rgb(0, 0, 0); /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    display: flex; /* Muestra los elementos como una fila */
+    justify-content: space-around; /* Distribuye los elementos uniformemente */
+    flex-wrap: wrap; /* Permite que las columnas se colapsen en filas en dispositivos pequeños */
+}
+
+/* Estilos para cada columna */
+.columna {
+    flex: 1; /* Ocupa el mismo espacio horizontalmente */
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilos para los títulos de las columnas */
+.columna h4 {
+    margin-top: 0; /* Elimina el margen superior */
+}
+
+/* Estilos para la lista de participantes */
+.columna ul {
+    list-style: none; /* Quita los estilos de la lista */
+    padding: 0; /* Elimina el padding */
+}
+
+/* Estilos para cada ítem de la lista */
+.columna li {
+    margin-bottom: 5px; /* Espacio entre ítems */
+}
